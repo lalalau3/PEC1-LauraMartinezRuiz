@@ -1,0 +1,73 @@
+html, body {
+    height: 100%;
+}
+
+.encabezado {
+    width: 100%;
+    background-color: #F1F2F6;
+    color: #141316;
+    padding: 1px;
+    text-align: center;
+}
+
+.menu {
+    width: 100%;
+    background-color: #250353;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.dosier {
+    font-family: 'Verdana', sans-serif;  
+    font-weight: bold;                
+    font-size: 22px;                 
+}
+
+.shelley {
+    font-family: 'Cambria', serif;
+    font-weight: 500;
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: -0.10em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+    margin: 10px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.tipmenu {
+    font-family: 'Verdana', serif;
+    font-size: 13px;
+}
+
+a.tipmenu {
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    background-color: #250353;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    margin-top: auto;
+}
