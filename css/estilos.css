@@ -264,7 +264,7 @@ ul li ol li {
     font-weight: bold;
     font-size: 50px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
 }
 
 dl {
@@ -274,7 +274,7 @@ dl {
     align-items:center;
 }
 
-.container dl {
+.container section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -292,6 +292,7 @@ dt {
     font-weight: 500;
     text-align: left;
     margin-bottom: 20px; 
+    margin-top: 25px;
 }
 
 dd {
@@ -306,6 +307,8 @@ dd {
     margin-right: 0px;
     line-height: 1.5;
     word-spacing: -0.7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .dates {
@@ -316,7 +319,7 @@ dd {
     margin-bottom: 10px;
 }
 
-figure {
+dd figure {
     display: block;
     justify-content: center; 
     align-items: center;
