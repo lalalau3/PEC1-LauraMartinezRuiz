@@ -267,6 +267,10 @@ ul li ol li {
     margin-bottom: 1px;
 }
 
+iframe {
+    border: none;
+  }
+
 dl {
     display: block;
     grid-template-columns: 250px auto; 
@@ -425,12 +429,6 @@ div p a cite {
     margin: 10px;
 }
 
-.a-proyecto {
-    text-decoration: underline;
-    text-decoration-style: dotted;
-    color: var(--light-purple);
-}
-
 .a-proyecto:hover {
     color: var(--dark-grey);
 }
@@ -488,4 +486,8 @@ div p a cite {
     word-spacing: -0.7px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.italic {
+font-style: italic;
 }
